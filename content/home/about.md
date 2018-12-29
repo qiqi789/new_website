@@ -10,31 +10,29 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Machine Learning 机器学习",
+    "Artificial Intelligence 人工智能",
+    "分布并行系统"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "PhD in Computer Science"
+  institution = "University of Missouri"
   year = 2012
 
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+# [[education.courses]]
+#   course = "MEng in Artificial Intelligence"
+#   institution = "Massachusetts Institute of Technology"
+#   year = 2009
+# 
+# [[education.courses]]
+#   course = "BSc in Artificial Intelligence"
+#   institution = "Massachusetts Institute of Technology"
+#   year = 2008
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+我的研究领域是机器学习算法。我在美国密苏里大学获得计算机科学博士学位，现任教于海南大学计算机科学系。 如果你想在相关领域寻找感兴趣的课题，欢迎与我联系。我的邮箱是 qqi@hainu.edu.cn。

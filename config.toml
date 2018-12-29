@@ -64,14 +64,14 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "qqi@hainu.edu.cn"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = """
-  Monday 10:00 to 13:00<br>
-  Wednesday 09:00 to 10:00<br>
-  Otherwise email to book an appointment
-  """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  address = "#606 南海海洋资源利用国家重点实验室 海南大学"
+  #office_hours = """
+  #Monday 10:00 to 13:00<br>
+  #Wednesday 09:00 to 10:00<br>
+  #Otherwise email to book an appointment
+  #"""
+  #phone = "888 888 88 88"
+  # skype = "echo123"
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -268,17 +268,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
-
+    link = "https://twitter.com/qiziqi"
+    
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    icon = "facebook"
+    icon_pack = "fab"
+    link = "https://facebook.com/qiqi789"
+
+#  [[params.social]]
+#    icon = "google-scholar"
+#    icon_pack = "ai"
+#    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "https://github.com/qiqi789"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -365,10 +370,10 @@ enableGitInfo = false
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
 #  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
+#  title = "齐琦 网页介绍"
 #  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
+#    name = "齐琦"
+#    role = "机器学习，人工智能科学家"
 #  [[languages.zh.menu.main]]
 #    name = "Wo"
 #    url = "#about"
