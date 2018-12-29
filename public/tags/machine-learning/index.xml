@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Qi QI&#39;s Web Portal</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Qi QI&#39;s Web Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    
+	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>机器学习</title>
+      <link>/teaching/ai/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/ai/ml/</guid>
+      <description>参考课程 Machine learning and computational statistics, David Rosenberg, NYU Machine learning, Stanford Advanced topics in machine learning,Andreas Krause, Caltech Python Python Language Reference, 3.5 SciPy.org Documentation, Numpy, Scipy, Matplotlib Python Numpy Tutorial, Stanford Numpy for matlab users scikit-learn CVXOPT CVX, matlab-based People Shai Shalev-Shwartz</description>
+    </item>
+    
+  </channel>
+</rss>

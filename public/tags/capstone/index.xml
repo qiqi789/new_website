@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Capstone on Qi QI&#39;s Web Portal</title>
+    <link>/tags/capstone/</link>
+    <description>Recent content in Capstone on Qi QI&#39;s Web Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 26 May 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/capstone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>优秀毕业设计-2018</title>
+      <link>/post/2018-capstone/</link>
+      <pubDate>Sat, 26 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/post/2018-capstone/</guid>
+      <description>在2018年的毕业设计项目中，很愉快和一些最有才华的年轻人在一起工作，他们中有三人最终获得了优秀的成绩： 张孟杰，题目是“液化气体库存路径问题</description>
+    </item>
+    
+  </channel>
+</rss>
