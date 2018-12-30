@@ -8,12 +8,14 @@
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "/"
 
+buildDrafts = false
+
 # Title of your site
-title = "Qi QI's Web Portal"
+title = "齐琦 Qi QI's Web Portal"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -53,7 +55,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Qi QI"
-  role = "Professor of Artificial Intelligence"
+  role = "Associate Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -64,7 +66,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "qqi@hainu.edu.cn"
-  address = "#606 南海海洋资源利用国家重点实验室 海南大学"
+  address = "办公室地址：#606 南海海洋资源利用国家重点实验室 海南大学"
   #office_hours = """
   #Monday 10:00 to 13:00<br>
   #Wednesday 09:00 to 10:00<br>

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Qi QI">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="网络安全技术 （2016年春季学期） 课程安排 周期 日期 内容 课件 说明 1 2&frasl;25 网络安全概论 PDF 2 3&frasl;3 网络安全概论 3 3&frasl;10 常规加密算法 PDF 4 3&frasl;17 常规加密算法 5 3&frasl;24 公钥密">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/teaching/network-security/2016/network-security/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="齐琦 Qi QI&#39;s Web Portal">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="齐琦 Qi QI&#39;s Web Portal">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/teaching/network-security/2016/network-security/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="齐琦 Qi QI&#39;s Web Portal">
+  <meta property="og:url" content="/teaching/network-security/2016/network-security/">
+  <meta property="og:title" content="网络安全技术 | 齐琦 Qi QI&#39;s Web Portal">
+  <meta property="og:description" content="网络安全技术 （2016年春季学期） 课程安排 周期 日期 内容 课件 说明 1 2&frasl;25 网络安全概论 PDF 2 3&frasl;3 网络安全概论 3 3&frasl;10 常规加密算法 PDF 4 3&frasl;17 常规加密算法 5 3&frasl;24 公钥密"><meta property="og:image" content="/img/portrait.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title>网络安全技术 | 齐琦 Qi QI&#39;s Web Portal</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">齐琦 Qi QI&#39;s Web Portal</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/research/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/teaching/">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">网络安全技术</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Qi QI">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="" itemprop="datePublished">
+    <time datetime="" itemprop="dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Qi QI">
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%8a%80%e6%9c%af&amp;url=%2fteaching%2fnetwork-security%2f2016%2fnetwork-security%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fteaching%2fnetwork-security%2f2016%2fnetwork-security%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fteaching%2fnetwork-security%2f2016%2fnetwork-security%2f&amp;title=%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%8a%80%e6%9c%af"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fteaching%2fnetwork-security%2f2016%2fnetwork-security%2f&amp;title=%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%8a%80%e6%9c%af"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8%e6%8a%80%e6%9c%af&amp;body=%2fteaching%2fnetwork-security%2f2016%2fnetwork-security%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="网络安全技术-2016年春季学期">网络安全技术 （2016年春季学期）</h2>
+
+<h2 id="课程安排">课程安排</h2>
+
+<table>
+<thead>
+<tr>
+<th>周期</th>
+<th>日期</th>
+<th>内容</th>
+<th>课件</th>
+<th>说明</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td><sup>2</sup>&frasl;<sub>25</sub></td>
+<td>网络安全概论</td>
+<td><a href="Chapter1.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><sup>3</sup>&frasl;<sub>3</sub></td>
+<td>网络安全概论</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><sup>3</sup>&frasl;<sub>10</sub></td>
+<td>常规加密算法</td>
+<td><a href="Chapter2.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td><sup>3</sup>&frasl;<sub>17</sub></td>
+<td>常规加密算法</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><sup>3</sup>&frasl;<sub>24</sub></td>
+<td>公钥密码体系和密钥管理</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td><sup>3</sup>&frasl;<sub>31</sub></td>
+<td>公钥密码体系和密钥管理</td>
+<td><a href="Chapter3.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td><sup>4</sup>&frasl;<sub>7</sub></td>
+<td>数据认证</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td><sup>4</sup>&frasl;<sub>14</sub></td>
+<td>数据认证</td>
+<td><a href="Chapter4.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>9</td>
+<td><sup>4</sup>&frasl;<sub>21</sub></td>
+<td>实用网络安全协议</td>
+<td><a href="Chapter5.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>10</td>
+<td><sup>4</sup>&frasl;<sub>28</sub></td>
+<td>实用网络安全协议</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>11</td>
+<td><sup>5</sup>&frasl;<sub>5</sub></td>
+<td>无线网安全性</td>
+<td><a href="Chapter6.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>12</td>
+<td><sup>5</sup>&frasl;<sub>12</sub></td>
+<td>无线网安全性</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>13</td>
+<td><sup>5</sup>&frasl;<sub>19</sub></td>
+<td>网络边防</td>
+<td><a href="Chapter7.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>14</td>
+<td><sup>5</sup>&frasl;<sub>26</sub></td>
+<td>抗恶意软件</td>
+<td><a href="Chapter8.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>15</td>
+<td><sup>6</sup>&frasl;<sub>2</sub></td>
+<td>入侵检测系统</td>
+<td><a href="Chapter9.pdf" target="_blank">PDF</a></td>
+<td></td>
+</tr>
+
+<tr>
+<td>17</td>
+<td><sup>6</sup>&frasl;<sub>16</sub></td>
+<td>期末考试</td>
+<td></td>
+<td>下午2：40开始，地点：4教-101</td>
+</tr>
+</tbody>
+</table>
+
+<p> </p>
+
+<h2 id="实验">实验</h2>
+
+<p>分三个组，使用信息安全实验室（老理工学院楼610室）。</p>
+
+<p>每组都从第6周开始到第13周（共16课时）；</p>
+
+<p>第1组时间是每周一下午第7，8节；<br />
+第2组时间是每周一晚第9，10节；<br />
+第3组时间是每周三晚第9，10节；</p>
+
+<p>实验内容：在虚拟机上按照实验讲义内容练习网络安全技术。</p>
+
+<ul>
+<li><a href="lab.zip" target="_blank">实验手册(包括lab1-lab8)</a></li>
+</ul>
+
+<p>可选内容：包括书后每章的实践练习，<a href="http://www.cis.syr.edu/~wedu/seed/labs.html" target="_blank">SEED
+labs</a> 的相关实验。</p>
+
+<h2 id="成绩">成绩</h2>
+
+<p>平时：30% （平时作业、课堂提问、实验）</p>
+
+<p>期末考试： 70%</p>
+
+<p>自选课程项目，可占20%</p>
+
+<h2 id="课程信息">课程信息</h2>
+
+<p>时间：第1-15，第17周；第5，6，7节课，每周四</p>
+
+<p>地点：4-511</p>
+
+<p>课本：计算机网络安全的理论与实践（第2版），王杰著，高等教育出版社</p>
+
+<h2 id="文档加密软件">文档加密软件</h2>
+
+<p>文档加密软件（V1.0），使用当今先进的AES-256加密算法，可用于文件的批量加密和相应解密。该软件以海南大学为著作权人进行注册，登记号为2015SR169732。该软件仅限课堂教学及个人研究使用，下载链接是
+<a href="文档加密软件包.zip" target="_blank">文档加密软件（V1.0）</a>，下载并解压后，文件夹里包含程序和使用说明文档。</p>
+
+<p> </p>
+
+<h2 id="参考资料">参考资料</h2>
+
+<ul>
+<li><p><a href="http://www.cert.org.cn/" target="_blank">国家互联网应急中心</a></p></li>
+
+<li><p><a href="http://www.itsec.gov.cn/" target="_blank">中国信息安全测评中心</a></p></li>
+
+<li><p><a href="https://www.microsoft.com/en-us/sdl/default.aspx" target="_blank">Microsoft&rsquo;s security development lifecycle
+(SDL)</a></p></li>
+
+<li><p><a href="https://github.com/WebGoat/WebGoat" target="_blank">WebGoat, a deliberately insecure web application maintained by OWASP
+designed to teach web application security
+lessons</a></p></li>
+
+<li><p><a href="www.cert.org" target="_blank">cert.org, SEI, CMU</a></p></li>
+
+<li><p><a href="https://linux.cn/article-2434-1.html" target="_blank">netstat, 网络连接扫描软件</a></p></li>
+
+<li><p><a href="http://www.colasoft.com.cn/" target="_blank">科来网络安全分析系统（免费版）</a></p></li>
+
+<li><p><a href="https://www.snort.org/" target="_blank">Snort, an open-source, free and lightweight network intrusion detection
+system (NIDS) software</a></p></li>
+
+<li><p><a href="https://www.virusbulletin.com/" target="_blank">Virus bulletin &ndash; covering the global threat
+landscape</a></p></li>
+
+<li><p><a href="https://www.av-test.org/en/" target="_blank">AV-Test, the independent IT-Security
+Institute</a></p></li>
+
+<li><p><a href="https://www.virustotal.com/" target="_blank">VirusTotal</a></p></li>
+
+<li><p><a href="http://www.securityweek.com/" target="_blank">Security Week</a></p></li>
+
+<li><p><a href="https://www.weforum.org/agenda/archive/cyber-security" target="_blank">World economic forum &ndash; Cyber
+Security</a></p></li>
+
+<li><p><a href="http://www.cyberisk.biz/application-artificial-intelligence-in-cyber-security/" target="_blank">Application of Artificial Intelligence in Cyber
+Security</a></p></li>
+
+<li><p><a href="http://blogs.infosecurityeurope.com/applying-deep-learning-to-cybersecurity/" target="_blank">Applying Deep Learning to
+Cybersecurity</a></p></li>
+
+<li><p><a href="http://cybersecurityventures.com/whatsapp-message-hacked-by-john-mcafee-and-crew/" target="_blank">WhatsApp Message Hacked By John McAfee And
+Crew</a></p></li>
+
+<li><p><a href="https://www.weforum.org/agenda/2016/05/who-are-the-cyberwar-superpowers?utm_content=buffer4493b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" target="_blank">Who are the cyberwar
+superpowers?</a></p></li>
+
+<li><p><a href="http://blog.ventureradar.com/2016/03/11/10-hot-startups-using-artificial-intelligence-in-cyber-security/" target="_blank">10 HOT STARTUPS USING ARTIFICIAL INTELLIGENCE IN CYBER
+SECURITY</a></p></li>
+
+<li><p><a href="https://sentinelone.com/company/leadership-team/" target="_blank">SentinelOne</a></p></li>
+
+<li><p><a href="http://www.deepinstinct.com/#/about-us" target="_blank">DeepInstinct</a></p></li>
+
+<li><p><a href="https://www.patternex.com/technology" target="_blank">patternEx &ndash; An Artificial Intelligence Approach to
+InfoSec</a></p></li>
+
+<li><p><a href="http://open.163.com/movie/2014/3/3/L/M9KC5G9MO_M9KGSBV3L.html" target="_blank">TED &gt;
+日常生活中的网络犯罪——我们该做些什么</a></p></li>
+
+<li><p><a href="http://c.open.163.com/search/search.htm?query=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8" target="_blank">网易公开课</a></p></li>
+
+<li><p><a href="http://www.securitybook.net/" target="_blank">Introduction to Computer Security(presentation,
+projects)</a></p></li>
+
+<li><p><a href="http://www.cs.uml.edu/~wang/NetSec/" target="_blank">Introduction to Network Security: Theory and Practice
+(slides)</a></p></li>
+
+<li><p><a href="http://www.cis.syr.edu/~wedu/seed/labs.html" target="_blank">SEED labs</a></p></li>
+</ul>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Qi QI</a></h5>
+    <h6 class="card-subtitle">Associate Professor of Artificial Intelligence</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/#contact" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/qiziqi" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://facebook.com/qiqi789" target="_blank" rel="noopener">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/qiqi789" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2019 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+

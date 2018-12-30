@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Qi QI&#39;s Web Portal</title>
+    <title>Homes on 齐琦 Qi QI&#39;s Web Portal</title>
     <link>/home/</link>
-    <description>Recent content in Homes on Qi QI&#39;s Web Portal</description>
+    <description>Recent content in Homes on 齐琦 Qi QI&#39;s Web Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -96,7 +96,7 @@
     <item>
       <title>Recent Posts</title>
       <link>/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0800</pubDate>
       
       <guid>/home/posts/</guid>
       <description></description>

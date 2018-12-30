@@ -4,6 +4,30 @@
     
     <url>
     
+      <loc>/post/</loc>
+      <lastmod>2019-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/teaching/ai/</loc>
+      <lastmod>2018-12-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/teaching/network-security/</loc>
+      <lastmod>2018-12-30T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/research/</loc>
       <lastmod>2018-12-29T00:00:00+08:00</lastmod>
     </url>
@@ -53,14 +77,6 @@
     <url>
     
       <loc>/talk/example/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -150,13 +166,6 @@
     
     <url>
     
-      <loc>/teaching/ai/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/teaching/ai/archive/2016fall/ai/</loc>
     </url>
     
@@ -219,15 +228,6 @@
     
       <loc>/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -311,6 +311,22 @@
     <url>
     
       <loc>/teaching/ai/ml/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/teaching/network-security/2016/network-security/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   

@@ -1,8 +1,16 @@
----
-title: AI course
----
++++
+title = "人工智能"
+date = 2018-12-30T00:00:00
+type = "docs"  # Do not modify.
 
-人工智能 （2017秋季）
+# Add menu entry to sidebar.
+#linktitle = "人工智能"
+#[menu.teaching]
+#  parent = "人工智能"
+#  weight = 1
++++
+
+（2017秋季）
 ---------------------------
 
 ### 更新通知

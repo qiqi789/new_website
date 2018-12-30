@@ -1,14 +1,792 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qi QI&#39;s Web Portal on Qi QI&#39;s Web Portal</title>
+    <title>齐琦 Qi QI&#39;s Web Portal on 齐琦 Qi QI&#39;s Web Portal</title>
     <link>/</link>
-    <description>Recent content in Qi QI&#39;s Web Portal on Qi QI&#39;s Web Portal</description>
+    <description>Recent content in 齐琦 Qi QI&#39;s Web Portal on 齐琦 Qi QI&#39;s Web Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2019</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>人工智能</title>
+      <link>/teaching/ai/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/teaching/ai/</guid>
+      <description>
+
+&lt;h2 id=&#34;2017秋季&#34;&gt;（2017秋季）&lt;/h2&gt;
+
+&lt;h3 id=&#34;更新通知&#34;&gt;更新通知&lt;/h3&gt;
+
+&lt;h4 id=&#34;2017-12-18&#34;&gt;2017/12/18&lt;/h4&gt;
+
+&lt;p&gt;课程设计汇报题目：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;捕食者智能农业机器人&lt;/li&gt;
+&lt;li&gt;智能防雾霾口罩&lt;/li&gt;
+&lt;li&gt;基于yolo的盲人识路&lt;/li&gt;
+&lt;li&gt;基于极小极大算法的五子棋博弈问题&lt;/li&gt;
+&lt;li&gt;六子棋-对抗搜索算法的应用&lt;/li&gt;
+&lt;li&gt;人工免疫系统&lt;/li&gt;
+&lt;li&gt;BP-神经网络法进行分级&lt;/li&gt;
+&lt;li&gt;对于人工智能作曲家AIVA的研究——基于强化学习技术及深度学习算法&lt;/li&gt;
+&lt;li&gt;音乐推荐算法&lt;/li&gt;
+&lt;li&gt;图像识别系统&lt;/li&gt;
+&lt;li&gt;“智能的”中国象棋&lt;/li&gt;
+&lt;li&gt;人脸识别的主要算法介绍&lt;/li&gt;
+&lt;li&gt;浅谈语音识别&lt;/li&gt;
+&lt;li&gt;八数码问题求解&lt;/li&gt;
+&lt;li&gt;浅析人工智能领域的发展现状&lt;/li&gt;
+&lt;li&gt;人工智能在飞航导弹上的应用与展望&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;2017-12-7&#34;&gt;2017/12/7&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;期末考试通知已贴在网络教学平台。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;2017-12-6&#34;&gt;2017/12/6&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;课程幻灯片已上载到&lt;a href=&#34;http://jxpt.hainu.edu.cn/meol/jpk/course/layout/newpage/index.jsp?courseId=20760&#34; target=&#34;_blank&#34;&gt;网络教学平台&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;2017-9-5&#34;&gt;2017/9/5&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;project/&#34; target=&#34;_blank&#34;&gt;PACMAN程序设计&lt;/a&gt;，感兴趣的可以做，总成绩上会加分。&lt;/p&gt;
+
+&lt;p&gt;推荐一个多智能体协作演化建模软件, &lt;a href=&#34;http://ccl.northwestern.edu/netlogo/index.shtml&#34; target=&#34;_blank&#34;&gt;NetLogo&lt;/a&gt;;
+  可以下载&lt;a href=&#34;http://ccl.northwestern.edu/netlogo/4.0.4/docs/NetLogo_manual_chinese.pdf&#34; target=&#34;_blank&#34;&gt;中文手册&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;课程安排&#34;&gt;课程安排&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;随课程进展，以下内容安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;周期&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;th&gt;阅读&lt;/th&gt;
+&lt;th&gt;幻灯片&lt;/th&gt;
+&lt;th&gt;作业&lt;/th&gt;
+&lt;th&gt;注释&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;人工智能简介；课程内容介绍&lt;/td&gt;
+&lt;td&gt;第1章，和26.3,27.4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture01.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;智能行为体和环境&lt;/td&gt;
+&lt;td&gt;第2章&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture02.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;14&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;基础搜索法；A星搜索和启发式法&lt;/td&gt;
+&lt;td&gt;第3章的1-4节，5-6节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture03.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;局部搜索和不确定搜索&lt;/td&gt;
+&lt;td&gt;第4章&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture04.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;博弈问题&lt;/td&gt;
+&lt;td&gt;第5章1-5节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture05.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;博弈问题（继续）&lt;/td&gt;
+&lt;td&gt;第5章&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture06.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;28&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;约束满足问题&lt;/td&gt;
+&lt;td&gt;第6章1，3-5节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture07.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;命题逻辑：语法和推理；基于逻辑的智能体&lt;/td&gt;
+&lt;td&gt;第7章第1-5、6.1和第7节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture08.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;概率&lt;/td&gt;
+&lt;td&gt;第13章第1-5节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture09.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;26&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;概率，贝叶斯推理&lt;/td&gt;
+&lt;td&gt;第13章第1-5节&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;贝叶斯网络：语法和语义&lt;/td&gt;
+&lt;td&gt;第14章第1-4节&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture10.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;贝叶斯网络：精确推断，近似推断&lt;/td&gt;
+&lt;td&gt;第14章第1-4节&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;23&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;贝叶斯网络近似推理&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;采样，MCMC&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;决策原理&lt;/td&gt;
+&lt;td&gt;第16章&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;14&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;马科夫模型&lt;/td&gt;
+&lt;td&gt;第15章第1-3节&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;课程设计汇报&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;课程信息&#34;&gt;课程信息&lt;/h3&gt;
+
+&lt;h4 id=&#34;上课时间地点&#34;&gt;上课时间地点&lt;/h4&gt;
+
+&lt;p&gt;周四下午5、6、7节课； 地点在 1-T302.&lt;/p&gt;
+
+&lt;h4 id=&#34;课程形式&#34;&gt;课程形式：&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;以下安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;课堂参与： 回答问题，考勤。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;课堂测验&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;期末考试&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;评分标准&#34;&gt;评分标准：&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;以下安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;分布&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;平时成绩&lt;/td&gt;
+&lt;td&gt;20%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;课堂考勤&lt;/td&gt;
+&lt;td&gt;10%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;期末考试&lt;/td&gt;
+&lt;td&gt;70%&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;总共&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自选课程设计可以加分。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;课本参考&#34;&gt;课本参考：&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Artificial Intelligence: A Modern Approach, 3rd edition, Stuart J. Russell
+and Peter Norvig. Prentice Hall, 2009.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;课程交流&#34;&gt;课程交流：&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;我的电子邮件地址是：qqi@hainu.edu.cn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;以往课程网页&#34;&gt;以往课程网页&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;archive/2016fall/AI&#34; target=&#34;_blank&#34;&gt;2016 秋季学期&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;数学参考&#34;&gt;数学参考&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://mathworld.wolfram.com/&#34; target=&#34;_blank&#34;&gt;Wolfram mathworld&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mathwarehouse.com/&#34; target=&#34;_blank&#34;&gt;Math Warehouse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;机器学习参考&#34;&gt;机器学习参考&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!categories/ml-news/cfp&#34; target=&#34;_blank&#34;&gt;Machine learning group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/learning-theory&#34; target=&#34;_blank&#34;&gt;COLT (Computational Learning Theory) group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://opt-ml.org/&#34; target=&#34;_blank&#34;&gt;NIPS workshops on optimization for machine learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/&#34; target=&#34;_blank&#34;&gt;NIPS papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/competitions&#34; target=&#34;_blank&#34;&gt;Kaggle competitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/datasets&#34; target=&#34;_blank&#34;&gt;Kaggle datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.chalearn.org/challenges.html&#34; target=&#34;_blank&#34;&gt;Challenges in machine learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://competitions.codalab.org/&#34; target=&#34;_blank&#34;&gt;Competitions at Codalab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.csmining.org/cdmc2017/&#34; target=&#34;_blank&#34;&gt;Cybersecurity data mining competition 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kdnuggets.com/&#34; target=&#34;_blank&#34;&gt;kdnuggets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://plus.google.com/communities/107785538899595981479&#34; target=&#34;_blank&#34;&gt;machine learning community - google+&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://plus.google.com/communities/112866381580457264725&#34; target=&#34;_blank&#34;&gt;deep learning community - google+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.huji.ac.il/~shais/&#34; target=&#34;_blank&#34;&gt;Shai Shalev-Shwartz&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.cmu.edu/~avrim/&#34; target=&#34;_blank&#34;&gt;Avrim Blum&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.machinelearning.com/avrim&#34; target=&#34;_blank&#34;&gt;http://www.machinelearning.com/avrim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cs.cornell.edu/jeh/book%20June%2014,%202017pdf.pdf&#34; target=&#34;_blank&#34;&gt;Foundations of Data Science, the book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://data8.org/&#34; target=&#34;_blank&#34;&gt;Berkeley course - The Foundations of Data Science&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.inferentialthinking.com/&#34; target=&#34;_blank&#34;&gt;The Foundations of Data Science, online book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs231n.github.io/&#34; target=&#34;_blank&#34;&gt;Stanford course: Convolutional Neural Networks for Visual Recognition&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs231n.stanford.edu/&#34; target=&#34;_blank&#34;&gt;http://cs231n.stanford.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/convolutional-networks/&#34; target=&#34;_blank&#34;&gt;Convolutional Neural Networks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.robots.ox.ac.uk/~parg/home&#34; target=&#34;_blank&#34;&gt;Machine learning research group &amp;ndash; University of Oxford&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.oxford-man.ox.ac.uk/&#34; target=&#34;_blank&#34;&gt;Oxford-man institute of quantitative finance&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://distill.pub/&#34; target=&#34;_blank&#34;&gt;Distill pub &amp;ndash; online journal, seeking clarity in Machine Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs229.stanford.edu/&#34; target=&#34;_blank&#34;&gt;Machine learning course at Stanford&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;python-参考&#34;&gt;Python 参考&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://conda.io/docs/commands.html&#34; target=&#34;_blank&#34;&gt;Conda documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/index.html&#34; target=&#34;_blank&#34;&gt;Python documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/tutorial/index.html&#34; target=&#34;_blank&#34;&gt;Python tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/&#34; target=&#34;_blank&#34;&gt;Numpy manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy-1.13.0/user/numpy-for-matlab-users.html&#34; target=&#34;_blank&#34;&gt;NumPy for Matlab users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/python-numpy-tutorial/&#34; target=&#34;_blank&#34;&gt;Numpy tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cvxopt.org/userguide/index.html&#34; target=&#34;_blank&#34;&gt;CVXOPT user&amp;rsquo;s guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;Python data analysis library &amp;ndash; pandas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pytorch.org/&#34; target=&#34;_blank&#34;&gt;pytorch, tensors and dynamic neural nets in python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://keras.io/&#34; target=&#34;_blank&#34;&gt;Keras &amp;ndash; Python Deep Learning library (high level)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.keras.io/index.html&#34; target=&#34;_blank&#34;&gt;Keras blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;scala-参考&#34;&gt;Scala 参考&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.scala-lang.org/&#34; target=&#34;_blank&#34;&gt;Scala main website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;写作工具&#34;&gt;写作工具&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://atom.io/&#34; target=&#34;_blank&#34;&gt;Atom, a modern text editor(for markdown, Scala, etc.)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://shd101wyy.github.io/markdown-preview-enhanced/&#34; target=&#34;_blank&#34;&gt;Markdown Preview Enhanced&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.texts.io/&#34; target=&#34;_blank&#34;&gt;Texts, a rich editor for markdown (purchase)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rmarkdown.rstudio.com/authoring_basics.html&#34; target=&#34;_blank&#34;&gt;Markdown Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://pandoc.org/&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.sharelatex.com/learn/Main_Page&#34; target=&#34;_blank&#34;&gt;Latex online guidance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gnuplot.info/&#34; target=&#34;_blank&#34;&gt;Gnuplot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://endnote.com/&#34; target=&#34;_blank&#34;&gt;EndNote - managing bibliographies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;BibDesk - MAC BIBLIOGRAPHY MANAGER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nschloe/betterbib&#34; target=&#34;_blank&#34;&gt;betterbib - python tool for bib conversion according to crossRef or DBLP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;r-参考&#34;&gt;R 参考&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://r4ds.had.co.nz/&#34; target=&#34;_blank&#34;&gt;R for Data Science (an online book)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;参考&#34;&gt;参考&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aispace.org/index.shtml&#34; target=&#34;_blank&#34;&gt;AI Space &amp;ndash; Tools for Learning Artificial Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://playground.tensorflow.org/&#34; target=&#34;_blank&#34;&gt;Neural Networks demos in browser&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.fast.ai/&#34; target=&#34;_blank&#34;&gt;fast.ai. neural nets, deep learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://livebooklabs.com/keeppies/c5a5868ce26b8125&#34; target=&#34;_blank&#34;&gt;LiveBook: Optimization models and
+applications&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://inst.eecs.berkeley.edu/~ee127a/book/login/l_intro_main.html&#34; target=&#34;_blank&#34;&gt;HyperText-book: Optimization Models -
+Berkeley&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.harchaoui.eu/zaid/teaching/nyu/fall2015/&#34; target=&#34;_blank&#34;&gt;Computational Machine Learning - NYU
+course&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~nando/340-2012/lectures.php&#34; target=&#34;_blank&#34;&gt;Machine learning and Data mining &amp;ndash; CPSC
+340&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://techcrunch.com/artificial-intelligence-2/&#34; target=&#34;_blank&#34;&gt;Techcrunch - AI news&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cmr.berkeley.edu/blog/2016/6/ai/&#34; target=&#34;_blank&#34;&gt;How Artificial Intelligence is Reshaping
+Management&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.umass.edu/newsoffice/article/deep-learning-helps-map-mars-and-analyze&#34; target=&#34;_blank&#34;&gt;Deep Learning Helps to Map Mars and Analyze its Surface
+Chemistry&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.umass.edu/newsoffice/article/software-beat-world%E2%80%99s-best-human-%E2%80%98go%E2%80%99&#34; target=&#34;_blank&#34;&gt;Software That Beat World’s Best Human ‘Go’ Player Has Roots in UMass
+Amherst Computer
+Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.msn.com/en-us/news/technology/artificial-intelligence-just-made-a-huge-leap-in-warfare/ar-AAhJK16?ocid=UE01DHP&#34; target=&#34;_blank&#34;&gt;Artificial intelligence just made a huge leap in
+warfare&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-30290540&#34; target=&#34;_blank&#34;&gt;Stephen Hawking warns artificial intelligence could end
+mankind&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.wired.com/2014/10/future-of-artificial-intelligence&#34; target=&#34;_blank&#34;&gt;The Three Breakthroughs That Have Finally Unleashed AI on the
+World&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aispace.org/index.shtml&#34; target=&#34;_blank&#34;&gt;Tools for Learning Artificial
+Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aaai.org/AILandscape&#34; target=&#34;_blank&#34;&gt;AI Landscape&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.acm.org/education/CS2013-final-report.pdf&#34; target=&#34;_blank&#34;&gt;ACM&amp;rsquo;s Computer Science 2013: Curriculum Guidelines for Undergraduate
+Programs in Computer
+Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0199678111?tag=viglink20784-20&amp;amp;pldnSite=1&#34; target=&#34;_blank&#34;&gt;Book: Superintelligence, Nick
+Bostrom&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/bestsellers/books/491300/ref=zg_b_bs_491300_1&#34; target=&#34;_blank&#34;&gt;Best sellers in Artificial
+Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://intelligence.org&#34; target=&#34;_blank&#34;&gt;Machine intellience research institute&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://lesswrong.com/r/discussion/&#34; target=&#34;_blank&#34;&gt;Less Wrong Discussion&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.washington.edu/news/TheNewAI_NewScientist.pdf&#34; target=&#34;_blank&#34;&gt;I, algorithm: A new dawn for artificial
+intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;ML/&#34; target=&#34;_blank&#34;&gt;machine learning resources&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>网络安全技术</title>
+      <link>/teaching/network-security/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/teaching/network-security/</guid>
+      <description>
+
+&lt;h2 id=&#34;2018年春季学期&#34;&gt;（2018年春季学期）&lt;/h2&gt;
+
+&lt;h2 id=&#34;课程安排&#34;&gt;课程安排&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;周期&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;th&gt;课件&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;9&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;网络安全概论&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter1.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;网络安全概论&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;23&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;常规加密算法&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter2.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;常规加密算法&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;6&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;公钥密码体系和密钥管理&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;13&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;公钥密码体系和密钥管理&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter3.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;20&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;数据认证&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;27&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;数据认证&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter4.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;实用网络安全协议&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter5.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;实用网络安全协议&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;18&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;无线网安全性&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter6.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;5&lt;/sup&gt;&amp;frasl;&lt;sub&gt;25&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;无线网安全性&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;1&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;网络边防&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter7.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;抗恶意软件&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter8.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;入侵检测系统&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Chapter9.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;&lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt;&lt;/td&gt;
+&lt;td&gt;期末考试&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h2 id=&#34;课程设计汇报&#34;&gt;课程设计汇报&lt;/h2&gt;
+
+&lt;h2 id=&#34;课程信息&#34;&gt;课程信息&lt;/h2&gt;
+
+&lt;h3 id=&#34;实验&#34;&gt;实验&lt;/h3&gt;
+
+&lt;p&gt;使用信息安全实验室（老理工学院楼610室）。&lt;/p&gt;
+
+&lt;p&gt;实验内容：在虚拟机上按照实验讲义内容练习网络安全技术。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;lab.zip&#34; target=&#34;_blank&#34;&gt;实验手册(包括lab1-lab8)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;可选内容：包括书后每章的实践练习，&lt;a href=&#34;http://www.cis.syr.edu/~wedu/seed/labs.html&#34; target=&#34;_blank&#34;&gt;SEED
+labs&lt;/a&gt; 的相关实验。&lt;/p&gt;
+
+&lt;h3 id=&#34;成绩&#34;&gt;成绩&lt;/h3&gt;
+
+&lt;p&gt;平时：30% （平时作业、课堂提问、实验）&lt;/p&gt;
+
+&lt;p&gt;期末考试： 70%&lt;/p&gt;
+
+&lt;p&gt;自选课程项目，可占20%&lt;/p&gt;
+
+&lt;h3 id=&#34;时间地点&#34;&gt;时间地点&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;时间：第1-16；第5，6，7节课，每周五&lt;/p&gt;
+
+&lt;p&gt;地点：4-304&lt;/p&gt;
+
+&lt;p&gt;课本：计算机网络安全的理论与实践（第2版），王杰著，高等教育出版社&lt;/p&gt;
+
+&lt;h2 id=&#34;文档加密软件&#34;&gt;文档加密软件&lt;/h2&gt;
+
+&lt;p&gt;文档加密软件（V1.0），使用当今先进的AES-256加密算法，可用于文件的批量加密和相应解密。该软件以海南大学为著作权人进行注册，登记号为2015SR169732。该软件仅限课堂教学及个人研究使用，下载链接是
+&lt;a href=&#34;文档加密软件包.zip&#34; target=&#34;_blank&#34;&gt;文档加密软件（V1.0）&lt;/a&gt;，下载并解压后，文件夹里包含程序和使用说明文档。&lt;/p&gt;
+
+&lt;h2 id=&#34;往年课程网页&#34;&gt;往年课程网页&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;/archive/network-security_2017Spring/&#34;&gt;2017&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kdnuggets.com/2017/01/machine-learning-cyber-security.html&#34; target=&#34;_blank&#34;&gt;Machine Learning &amp;amp; Cyber Security &amp;ndash;
+resources&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cert.org.cn/&#34; target=&#34;_blank&#34;&gt;国家互联网应急中心&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.itsec.gov.cn/&#34; target=&#34;_blank&#34;&gt;中国信息安全测评中心&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/sdl/default.aspx&#34; target=&#34;_blank&#34;&gt;Microsoft&amp;rsquo;s security development lifecycle
+(SDL)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/WebGoat/WebGoat&#34; target=&#34;_blank&#34;&gt;WebGoat, a deliberately insecure web application maintained by OWASP
+designed to teach web application security
+lessons&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;www.cert.org&#34; target=&#34;_blank&#34;&gt;cert.org, SEI, CMU&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://linux.cn/article-2434-1.html&#34; target=&#34;_blank&#34;&gt;netstat, 网络连接扫描软件&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.colasoft.com.cn/&#34; target=&#34;_blank&#34;&gt;科来网络安全分析系统（免费版）&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.grc.com/x/ne.dll?bh0bkyd2&#34; target=&#34;_blank&#34;&gt;ShieldsUP &amp;ndash; free vulnerable ports
+profiling&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.snort.org/&#34; target=&#34;_blank&#34;&gt;Snort, an open-source, free and lightweight network intrusion detection
+system (NIDS) software&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.virusbulletin.com/&#34; target=&#34;_blank&#34;&gt;Virus bulletin &amp;ndash; covering the global threat
+landscape&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.av-test.org/en/&#34; target=&#34;_blank&#34;&gt;AV-Test, the independent IT-Security
+Institute&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.virustotal.com/&#34; target=&#34;_blank&#34;&gt;VirusTotal&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.securityweek.com/&#34; target=&#34;_blank&#34;&gt;Security Week&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.weforum.org/agenda/archive/cyber-security&#34; target=&#34;_blank&#34;&gt;World economic forum &amp;ndash; Cyber
+Security&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cyberisk.biz/application-artificial-intelligence-in-cyber-security/&#34; target=&#34;_blank&#34;&gt;Application of Artificial Intelligence in Cyber
+Security&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blogs.infosecurityeurope.com/applying-deep-learning-to-cybersecurity/&#34; target=&#34;_blank&#34;&gt;Applying Deep Learning to
+Cybersecurity&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cybersecurityventures.com/whatsapp-message-hacked-by-john-mcafee-and-crew/&#34; target=&#34;_blank&#34;&gt;WhatsApp Message Hacked By John McAfee And
+Crew&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.weforum.org/agenda/2016/05/who-are-the-cyberwar-superpowers?utm_content=buffer4493b&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34; target=&#34;_blank&#34;&gt;Who are the cyberwar
+superpowers?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.ventureradar.com/2016/03/11/10-hot-startups-using-artificial-intelligence-in-cyber-security/&#34; target=&#34;_blank&#34;&gt;10 HOT STARTUPS USING ARTIFICIAL INTELLIGENCE IN CYBER
+SECURITY&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://sentinelone.com/company/leadership-team/&#34; target=&#34;_blank&#34;&gt;SentinelOne&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.deepinstinct.com/#/about-us&#34; target=&#34;_blank&#34;&gt;DeepInstinct&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.patternex.com/technology&#34; target=&#34;_blank&#34;&gt;patternEx &amp;ndash; An Artificial Intelligence Approach to
+InfoSec&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://open.163.com/movie/2014/3/3/L/M9KC5G9MO_M9KGSBV3L.html&#34; target=&#34;_blank&#34;&gt;TED &amp;gt;
+日常生活中的网络犯罪——我们该做些什么&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://c.open.163.com/search/search.htm?query=%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8&#34; target=&#34;_blank&#34;&gt;网易公开课&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.securitybook.net/&#34; target=&#34;_blank&#34;&gt;Introduction to Computer Security(presentation,
+projects)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.uml.edu/~wang/NetSec/&#34; target=&#34;_blank&#34;&gt;Introduction to Network Security: Theory and Practice
+(slides)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cis.syr.edu/~wedu/seed/labs.html&#34; target=&#34;_blank&#34;&gt;SEED labs&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Example Page</title>
@@ -547,502 +1325,6 @@ Figure 1: A fancy pie chart.
       
       <guid>/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AI course</title>
-      <link>/teaching/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/ai/</guid>
-      <description>
-
-&lt;h2 id=&#34;人工智能-2017秋季&#34;&gt;人工智能 （2017秋季）&lt;/h2&gt;
-
-&lt;h3 id=&#34;更新通知&#34;&gt;更新通知&lt;/h3&gt;
-
-&lt;h4 id=&#34;2017-12-18&#34;&gt;2017/12/18&lt;/h4&gt;
-
-&lt;p&gt;课程设计汇报题目：&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;捕食者智能农业机器人&lt;/li&gt;
-&lt;li&gt;智能防雾霾口罩&lt;/li&gt;
-&lt;li&gt;基于yolo的盲人识路&lt;/li&gt;
-&lt;li&gt;基于极小极大算法的五子棋博弈问题&lt;/li&gt;
-&lt;li&gt;六子棋-对抗搜索算法的应用&lt;/li&gt;
-&lt;li&gt;人工免疫系统&lt;/li&gt;
-&lt;li&gt;BP-神经网络法进行分级&lt;/li&gt;
-&lt;li&gt;对于人工智能作曲家AIVA的研究——基于强化学习技术及深度学习算法&lt;/li&gt;
-&lt;li&gt;音乐推荐算法&lt;/li&gt;
-&lt;li&gt;图像识别系统&lt;/li&gt;
-&lt;li&gt;“智能的”中国象棋&lt;/li&gt;
-&lt;li&gt;人脸识别的主要算法介绍&lt;/li&gt;
-&lt;li&gt;浅谈语音识别&lt;/li&gt;
-&lt;li&gt;八数码问题求解&lt;/li&gt;
-&lt;li&gt;浅析人工智能领域的发展现状&lt;/li&gt;
-&lt;li&gt;人工智能在飞航导弹上的应用与展望&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&#34;2017-12-7&#34;&gt;2017/12/7&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;期末考试通知已贴在网络教学平台。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;2017-12-6&#34;&gt;2017/12/6&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;课程幻灯片已上载到&lt;a href=&#34;http://jxpt.hainu.edu.cn/meol/jpk/course/layout/newpage/index.jsp?courseId=20760&#34; target=&#34;_blank&#34;&gt;网络教学平台&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;2017-9-5&#34;&gt;2017/9/5&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;project/&#34; target=&#34;_blank&#34;&gt;PACMAN程序设计&lt;/a&gt;，感兴趣的可以做，总成绩上会加分。&lt;/p&gt;
-
-&lt;p&gt;推荐一个多智能体协作演化建模软件, &lt;a href=&#34;http://ccl.northwestern.edu/netlogo/index.shtml&#34; target=&#34;_blank&#34;&gt;NetLogo&lt;/a&gt;;
-  可以下载&lt;a href=&#34;http://ccl.northwestern.edu/netlogo/4.0.4/docs/NetLogo_manual_chinese.pdf&#34; target=&#34;_blank&#34;&gt;中文手册&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;课程安排&#34;&gt;课程安排&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;随课程进展，以下内容安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;周期&lt;/th&gt;
-&lt;th&gt;日期&lt;/th&gt;
-&lt;th&gt;内容&lt;/th&gt;
-&lt;th&gt;阅读&lt;/th&gt;
-&lt;th&gt;幻灯片&lt;/th&gt;
-&lt;th&gt;作业&lt;/th&gt;
-&lt;th&gt;注释&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;人工智能简介；课程内容介绍&lt;/td&gt;
-&lt;td&gt;第1章，和26.3,27.4&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture01.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;智能行为体和环境&lt;/td&gt;
-&lt;td&gt;第2章&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture02.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;14&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;基础搜索法；A星搜索和启发式法&lt;/td&gt;
-&lt;td&gt;第3章的1-4节，5-6节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture03.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;15&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;局部搜索和不确定搜索&lt;/td&gt;
-&lt;td&gt;第4章&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture04.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;博弈问题&lt;/td&gt;
-&lt;td&gt;第5章1-5节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture05.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;22&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;博弈问题（继续）&lt;/td&gt;
-&lt;td&gt;第5章&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture06.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;28&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;约束满足问题&lt;/td&gt;
-&lt;td&gt;第6章1，3-5节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture07.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;12&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;命题逻辑：语法和推理；基于逻辑的智能体&lt;/td&gt;
-&lt;td&gt;第7章第1-5、6.1和第7节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture08.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;19&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;概率&lt;/td&gt;
-&lt;td&gt;第13章第1-5节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture09.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;10&lt;/sup&gt;&amp;frasl;&lt;sub&gt;26&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;概率，贝叶斯推理&lt;/td&gt;
-&lt;td&gt;第13章第1-5节&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;贝叶斯网络：语法和语义&lt;/td&gt;
-&lt;td&gt;第14章第1-4节&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;lecture10.pdf&#34; target=&#34;_blank&#34;&gt;PDF&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;16&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;贝叶斯网络：精确推断，近似推断&lt;/td&gt;
-&lt;td&gt;第14章第1-4节&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;23&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;贝叶斯网络近似推理&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;11&lt;/sup&gt;&amp;frasl;&lt;sub&gt;30&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;采样，MCMC&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;决策原理&lt;/td&gt;
-&lt;td&gt;第16章&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;14&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;马科夫模型&lt;/td&gt;
-&lt;td&gt;第15章第1-3节&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;&lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;21&lt;/sub&gt;&lt;/td&gt;
-&lt;td&gt;课程设计汇报&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;课程信息&#34;&gt;课程信息&lt;/h3&gt;
-
-&lt;h4 id=&#34;上课时间地点&#34;&gt;上课时间地点&lt;/h4&gt;
-
-&lt;p&gt;周四下午5、6、7节课； 地点在 1-T302.&lt;/p&gt;
-
-&lt;h4 id=&#34;课程形式&#34;&gt;课程形式：&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;以下安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;课堂参与： 回答问题，考勤。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;课堂测验&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;期末考试&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;评分标准&#34;&gt;评分标准：&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;以下安排可能会有变化。&lt;/em&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;项目&lt;/th&gt;
-&lt;th&gt;分布&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;平时成绩&lt;/td&gt;
-&lt;td&gt;20%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;课堂考勤&lt;/td&gt;
-&lt;td&gt;10%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;期末考试&lt;/td&gt;
-&lt;td&gt;70%&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;总共&lt;/td&gt;
-&lt;td&gt;100%&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ul&gt;
-&lt;li&gt;自选课程设计可以加分。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;课本参考&#34;&gt;课本参考：&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Artificial Intelligence: A Modern Approach, 3rd edition, Stuart J. Russell
-and Peter Norvig. Prentice Hall, 2009.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;课程交流&#34;&gt;课程交流：&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;我的电子邮件地址是：qqi@hainu.edu.cn
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;以往课程网页&#34;&gt;以往课程网页&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;archive/2016fall/AI&#34; target=&#34;_blank&#34;&gt;2016 秋季学期&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;数学参考&#34;&gt;数学参考&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mathworld.wolfram.com/&#34; target=&#34;_blank&#34;&gt;Wolfram mathworld&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mathwarehouse.com/&#34; target=&#34;_blank&#34;&gt;Math Warehouse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;机器学习参考&#34;&gt;机器学习参考&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!categories/ml-news/cfp&#34; target=&#34;_blank&#34;&gt;Machine learning group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/learning-theory&#34; target=&#34;_blank&#34;&gt;COLT (Computational Learning Theory) group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://opt-ml.org/&#34; target=&#34;_blank&#34;&gt;NIPS workshops on optimization for machine learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://papers.nips.cc/&#34; target=&#34;_blank&#34;&gt;NIPS papers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/competitions&#34; target=&#34;_blank&#34;&gt;Kaggle competitions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/datasets&#34; target=&#34;_blank&#34;&gt;Kaggle datasets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.chalearn.org/challenges.html&#34; target=&#34;_blank&#34;&gt;Challenges in machine learning&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://competitions.codalab.org/&#34; target=&#34;_blank&#34;&gt;Competitions at Codalab&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.csmining.org/cdmc2017/&#34; target=&#34;_blank&#34;&gt;Cybersecurity data mining competition 2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.kdnuggets.com/&#34; target=&#34;_blank&#34;&gt;kdnuggets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://plus.google.com/communities/107785538899595981479&#34; target=&#34;_blank&#34;&gt;machine learning community - google+&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://plus.google.com/communities/112866381580457264725&#34; target=&#34;_blank&#34;&gt;deep learning community - google+&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.huji.ac.il/~shais/&#34; target=&#34;_blank&#34;&gt;Shai Shalev-Shwartz&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.cmu.edu/~avrim/&#34; target=&#34;_blank&#34;&gt;Avrim Blum&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.machinelearning.com/avrim&#34; target=&#34;_blank&#34;&gt;http://www.machinelearning.com/avrim&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.cornell.edu/jeh/book%20June%2014,%202017pdf.pdf&#34; target=&#34;_blank&#34;&gt;Foundations of Data Science, the book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://data8.org/&#34; target=&#34;_blank&#34;&gt;Berkeley course - The Foundations of Data Science&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.inferentialthinking.com/&#34; target=&#34;_blank&#34;&gt;The Foundations of Data Science, online book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs231n.github.io/&#34; target=&#34;_blank&#34;&gt;Stanford course: Convolutional Neural Networks for Visual Recognition&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.stanford.edu/&#34; target=&#34;_blank&#34;&gt;http://cs231n.stanford.edu/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/convolutional-networks/&#34; target=&#34;_blank&#34;&gt;Convolutional Neural Networks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.robots.ox.ac.uk/~parg/home&#34; target=&#34;_blank&#34;&gt;Machine learning research group &amp;ndash; University of Oxford&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.oxford-man.ox.ac.uk/&#34; target=&#34;_blank&#34;&gt;Oxford-man institute of quantitative finance&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://distill.pub/&#34; target=&#34;_blank&#34;&gt;Distill pub &amp;ndash; online journal, seeking clarity in Machine Learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://cs229.stanford.edu/&#34; target=&#34;_blank&#34;&gt;Machine learning course at Stanford&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;python-参考&#34;&gt;Python 参考&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://conda.io/docs/commands.html&#34; target=&#34;_blank&#34;&gt;Conda documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/index.html&#34; target=&#34;_blank&#34;&gt;Python documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/tutorial/index.html&#34; target=&#34;_blank&#34;&gt;Python tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy/&#34; target=&#34;_blank&#34;&gt;Numpy manual&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy-1.13.0/user/numpy-for-matlab-users.html&#34; target=&#34;_blank&#34;&gt;NumPy for Matlab users&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/python-numpy-tutorial/&#34; target=&#34;_blank&#34;&gt;Numpy tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cvxopt.org/userguide/index.html&#34; target=&#34;_blank&#34;&gt;CVXOPT user&amp;rsquo;s guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pandas.pydata.org/&#34; target=&#34;_blank&#34;&gt;Python data analysis library &amp;ndash; pandas&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pytorch.org/&#34; target=&#34;_blank&#34;&gt;pytorch, tensors and dynamic neural nets in python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://keras.io/&#34; target=&#34;_blank&#34;&gt;Keras &amp;ndash; Python Deep Learning library (high level)&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.keras.io/index.html&#34; target=&#34;_blank&#34;&gt;Keras blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;scala-参考&#34;&gt;Scala 参考&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.scala-lang.org/&#34; target=&#34;_blank&#34;&gt;Scala main website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;写作工具&#34;&gt;写作工具&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://atom.io/&#34; target=&#34;_blank&#34;&gt;Atom, a modern text editor(for markdown, Scala, etc.)&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://shd101wyy.github.io/markdown-preview-enhanced/&#34; target=&#34;_blank&#34;&gt;Markdown Preview Enhanced&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.texts.io/&#34; target=&#34;_blank&#34;&gt;Texts, a rich editor for markdown (purchase)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rmarkdown.rstudio.com/authoring_basics.html&#34; target=&#34;_blank&#34;&gt;Markdown Basics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://pandoc.org/&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sharelatex.com/learn/Main_Page&#34; target=&#34;_blank&#34;&gt;Latex online guidance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://gnuplot.info/&#34; target=&#34;_blank&#34;&gt;Gnuplot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://endnote.com/&#34; target=&#34;_blank&#34;&gt;EndNote - managing bibliographies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;BibDesk - MAC BIBLIOGRAPHY MANAGER&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nschloe/betterbib&#34; target=&#34;_blank&#34;&gt;betterbib - python tool for bib conversion according to crossRef or DBLP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;r-参考&#34;&gt;R 参考&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://r4ds.had.co.nz/&#34; target=&#34;_blank&#34;&gt;R for Data Science (an online book)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;参考&#34;&gt;参考&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aispace.org/index.shtml&#34; target=&#34;_blank&#34;&gt;AI Space &amp;ndash; Tools for Learning Artificial Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://playground.tensorflow.org/&#34; target=&#34;_blank&#34;&gt;Neural Networks demos in browser&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.fast.ai/&#34; target=&#34;_blank&#34;&gt;fast.ai. neural nets, deep learning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://livebooklabs.com/keeppies/c5a5868ce26b8125&#34; target=&#34;_blank&#34;&gt;LiveBook: Optimization models and
-applications&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://inst.eecs.berkeley.edu/~ee127a/book/login/l_intro_main.html&#34; target=&#34;_blank&#34;&gt;HyperText-book: Optimization Models -
-Berkeley&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.harchaoui.eu/zaid/teaching/nyu/fall2015/&#34; target=&#34;_blank&#34;&gt;Computational Machine Learning - NYU
-course&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~nando/340-2012/lectures.php&#34; target=&#34;_blank&#34;&gt;Machine learning and Data mining &amp;ndash; CPSC
-340&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://techcrunch.com/artificial-intelligence-2/&#34; target=&#34;_blank&#34;&gt;Techcrunch - AI news&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cmr.berkeley.edu/blog/2016/6/ai/&#34; target=&#34;_blank&#34;&gt;How Artificial Intelligence is Reshaping
-Management&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.umass.edu/newsoffice/article/deep-learning-helps-map-mars-and-analyze&#34; target=&#34;_blank&#34;&gt;Deep Learning Helps to Map Mars and Analyze its Surface
-Chemistry&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.umass.edu/newsoffice/article/software-beat-world%E2%80%99s-best-human-%E2%80%98go%E2%80%99&#34; target=&#34;_blank&#34;&gt;Software That Beat World’s Best Human ‘Go’ Player Has Roots in UMass
-Amherst Computer
-Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.msn.com/en-us/news/technology/artificial-intelligence-just-made-a-huge-leap-in-warfare/ar-AAhJK16?ocid=UE01DHP&#34; target=&#34;_blank&#34;&gt;Artificial intelligence just made a huge leap in
-warfare&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.bbc.com/news/technology-30290540&#34; target=&#34;_blank&#34;&gt;Stephen Hawking warns artificial intelligence could end
-mankind&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.wired.com/2014/10/future-of-artificial-intelligence&#34; target=&#34;_blank&#34;&gt;The Three Breakthroughs That Have Finally Unleashed AI on the
-World&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aispace.org/index.shtml&#34; target=&#34;_blank&#34;&gt;Tools for Learning Artificial
-Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.aaai.org/AILandscape&#34; target=&#34;_blank&#34;&gt;AI Landscape&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.acm.org/education/CS2013-final-report.pdf&#34; target=&#34;_blank&#34;&gt;ACM&amp;rsquo;s Computer Science 2013: Curriculum Guidelines for Undergraduate
-Programs in Computer
-Science&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0199678111?tag=viglink20784-20&amp;amp;pldnSite=1&#34; target=&#34;_blank&#34;&gt;Book: Superintelligence, Nick
-Bostrom&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/bestsellers/books/491300/ref=zg_b_bs_491300_1&#34; target=&#34;_blank&#34;&gt;Best sellers in Artificial
-Intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://intelligence.org&#34; target=&#34;_blank&#34;&gt;Machine intellience research institute&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://lesswrong.com/r/discussion/&#34; target=&#34;_blank&#34;&gt;Less Wrong Discussion&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.cs.washington.edu/news/TheNewAI_NewScientist.pdf&#34; target=&#34;_blank&#34;&gt;I, algorithm: A new dawn for artificial
-intelligence&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;ML/&#34; target=&#34;_blank&#34;&gt;machine learning resources&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -1650,43 +1932,6 @@ $$&lt;/p&gt;
     farFromCherries     //  远离樱桃移动
     inSecurityFor(n)    //  返回在n步内安全的方向
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>机器学习</title>
-      <link>/teaching/ai/ml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/ai/ml/</guid>
-      <description>
-
-&lt;h2 id=&#34;参考课程&#34;&gt;参考课程&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://davidrosenberg.github.io/ml2016/&#34; target=&#34;_blank&#34;&gt;Machine learning and computational statistics, David Rosenberg,
-NYU&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs229.stanford.edu/materials.html&#34; target=&#34;_blank&#34;&gt;Machine learning, Stanford&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://courses.cms.caltech.edu/cs253/&#34; target=&#34;_blank&#34;&gt;Advanced topics in machine learning,Andreas Krause, Caltech&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3.5/reference/index.html&#34; target=&#34;_blank&#34;&gt;Python Language Reference, 3.5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.scipy.org/docs.html&#34; target=&#34;_blank&#34;&gt;SciPy.org Documentation, Numpy, Scipy, Matplotlib&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/python-numpy-tutorial&#34; target=&#34;_blank&#34;&gt;Python Numpy Tutorial, Stanford&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.scipy.org/doc/numpy-dev/user/numpy-for-matlab-users.html&#34; target=&#34;_blank&#34;&gt;Numpy for matlab users&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scikit-learn.org/stable/index.html&#34; target=&#34;_blank&#34;&gt;scikit-learn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cvxopt.org/&#34; target=&#34;_blank&#34;&gt;CVXOPT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cvxr.com/&#34; target=&#34;_blank&#34;&gt;CVX, matlab-based&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;people&#34;&gt;People&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.huji.ac.il/~shais/&#34; target=&#34;_blank&#34;&gt;Shai Shalev-Shwartz&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
