@@ -10,9 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Machine Learning 机器学习",
+    "Machine Learning 机器学习算法",
     "Artificial Intelligence 人工智能",
-    "分布并行系统"
+    "分布并行算法"
   ]
 
 # List your qualifications (such as academic degrees).
