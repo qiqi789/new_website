@@ -11,7 +11,6 @@ weight = 5
 [interests]
   interests = [
     "Machine Learning 机器学习算法",
-    "Artificial Intelligence 人工智能",
     "分布并行算法"
   ]
 
